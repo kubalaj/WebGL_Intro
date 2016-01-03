@@ -8,7 +8,11 @@
         canvas {background: #eee; display: block; margin: 0 auto;} 
     </style>
   </head>
-  <body>
-    <script src=""></script>
+  <body onload="start()">
+    <canvas id="glcanvas" width="640" height="480">
+      Your Browser doesn't appear to support the
+      <code>&lt;canvas&gt;</code> element.
+    </canvas>
+    <script src="intro.js"></script>
   </body>
 </html>
